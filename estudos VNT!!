@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function calculamedia() {
+            var nota1 = +prompt("Digite sua nota 1");
+            var nota2 = +prompt("Digite sua nota 2");
+            // CALCULAR A MEDIA!!
+           var MEDIA = (nota1+nota2 )/2;
+           if (media >= 6) {
+            alert("parabens!! aluno aprovado!");
+           }
+
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="calculamedia()">Consultar</button>
+</body>
+</html>
+
+
+
+<html>
+
+<head>
+    <meta>
+    <title>Dia da semana</title>
+        <script>
+            function verificadia() {
+                var numerododia = +prompt("digite o dia da semana ");
+                var diadasemana;
+                switch (numerododia) {
+                    case 1:
+                        diadasemana = "domingo";
+                        break;
+                    case 2:
+                        "diadasemana = segunda-feira";
+                        break
+                    case 3:
+                        diadasemana = "Terca-feira";
+                        break;
+                    case 4:
+                        Diadasemana = "quarta - feira";
+                        break;
+                    case 5:
+                        diadasemana = "quinta-feira";
+                        break;
+                    case 6:
+                        diadasemana = "sexta-feira";
+                        break;
+                    case 7:
+                        diadasemana = "sabado";
+                        break;
+                    default:
+                        diadasemana = "dia invalido";
+                }
+                alert("o dia da semana escolhido foi : " + diadasemana);
+            }
+        </script>
+</head>
+
+<body>
+    <button onclick="verificadia()">consultar</button>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var numero = +prompt("Digite um numero!")
+        if(numero == 1){
+            alert("Um não é condsiderado no exercico, digite outro numero");
+        }
+        for (var i = 2; i <= numero; i++) {
+            
+            if (numero % i == 0) {
+                alert("nao e primo!!!")
+                break;
+            }
+            else {
+                alert(" e primo!!!")
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+
+<html>
+
+<head>
+    <meta charset= "UTF-8" />
+    <title>viagem</title>
+    <script>
+        function verificaViagem() {
+            var saldo = +prompt("digite o seu saldo: ");
+            if (saldo >= 10000) {
+                alert("parabens!! sua viagem para europa chegou!!");
+            } else {
+                if (saldo >= 3000) {
+                    alert("com essa quantia voce podera viajar pelo brasil!!!");
+                } else {
+                } alert("fique em casa e aproveite suas ferias descansando ");
+            }
+        } 
+    </script>
+</head>
+
+<body>
+    <button onclick="verificaViagem()">consultar</button>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var esportes = ['futebool',
+            'corrida',
+            'skate',
+            'volei',
+            'basquete',
+            'natacao',
+            'voleibool',
+            'patins',
+            'tenis',
+            'queimada'];
+        for (var esporte = 0; esporte < esportes.length; esporte++) {
+            console.log(esporte);
+            console.log(esportes[esporte]);
+        }
+        console.log('exercicio2')
+
+        for (var esporte = esportes.length - 1; esporte >= 0; esporte--) {
+            console.log(esporte);
+            console.log(esportes[esporte])
+        }
+
+        //var esportes = +prompt("Digite um esporte!")
+        /*if (esporte == 1){
+            alert("Um esporte não é condsiderado no exercico, digite outro esporte");
+        }*/
+
+        for (var esporte = esportes.length - 1; esporte >= 0; esporte--) {
+            if (esporte % 2 == 0) {
+                console.log(esporte);
+            console.log(esportes[esporte])
+            
+            }
+        }
+const numero = [14,52,88,99,99,6,7,8,9,10]
+var soma = 0 
+for(var i=0;i<numero.length;i++){
+soma = soma + numero[i]
+}
+console.log('a soma e:'+soma)
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document45</title>
+    <script>
+function bemVindo(usuario) {
+    const mensagem = ("Ola! " + usuario +"!")
+return mensagem;
+        }
+        // como executar a funcao 
+       // como executar 
+     //const nome = prompt ("digite seu nome ")
+     //bemVindo (nome);
+const retorno = bemVindo('ola tudo bem ')
+const idade = prompt ( "ola digite sua "+",idade")
+alert ("sua idade e = "+ idade)
+console.log(retorno);
+function aoQuadrado (numero){
+    const resultado = numero * numero;
+    return resultado;
+}
+for (let i=2; i < 100; i++){
+    const teste = aoQuadrado(i);
+    console.log('aoQuadrado:',i, teste)
+}
+console.log(2);
+console.log(3);
+console.log(4);
+    </script>
+</head>
+<body>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var fruta = ['uva', 'morango', 'abacate'];
+        console.log(fruta[3]);
+        fruta[3] = 'melacia';        
+        console.log(fruta[3]);
+
+        console.log(fruta);        
+        console.log(fruta.length);        
+        
+        var jogovelha = [
+            ['X', 'X', '0'],
+            ['0', '0', 'X'],
+            ['0', ' ', ' '],
+        ];
+        console.log('jogo da velha;');
+        console.log(jogovelha);
+        console.log('primeira linha');
+        console.log(jogovelha[0]);
+        console.log('primeiro elemento da primeira linha');
+        console.log(jogovelha[0][0]);
+</script>
+</body>
+
+
